@@ -9,10 +9,33 @@ h1, footer {
     text-align: center;
 }
 
+h1 {
+    padding: 20px;
+}
+
+footer {
+    padding: 1px;
+}
+
+h2 {
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: grey;
+}
+
+main {
+    padding: 1.5rem;
+    margin: 30px;
+}
+
 img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    max-width: 25%;
+    max-width: 35%;
+    float: right;
+    margin: 20px;
+    margin-top: -80px;
 }
 
 .js {
+    font-style: italic;
 }
