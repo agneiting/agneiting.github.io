@@ -1,17 +1,20 @@
 body {
-    width: 60%;
-    margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1, footer {
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header, footer {
     background-color: #ffe272;
-    border-radius: 5px;
     text-align: center;
 }
 
 h1 {
-    padding: 20px;
+    padding: 10px;
+    font-size: 1.5rem;
+    margin-top: -10px;
 }
 
 footer {
@@ -23,6 +26,7 @@ h2 {
     border-bottom-style: solid;
     border-width: 1px;
     border-color: grey;
+    font-size: 1rem;
 }
 
 main {
@@ -32,10 +36,8 @@ main {
 
 img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    max-width: 35%;
-    float: right;
-    margin: 20px;
-    margin-top: -80px;
+    float: center;
+    margin-top: 10px;
 }
 
 .js {
