@@ -2,5 +2,10 @@
     img {
         width: auto;
     }
-    nav ul { display: flex; }
-		nav ul li { flex: 1 1 100%; }
+    nav ul { 
+        display: flex; 
+    }
+    nav ul li { 
+        flex: 1 1 100%; 
+    }
+}
