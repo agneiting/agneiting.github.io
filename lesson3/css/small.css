@@ -62,3 +62,12 @@ img {
     display: flex;
     justify-content: center;
 }
+
+table {
+    width: 90%;
+    margin: auto;
+}
+
+th, td {
+    text-align: center;
+}
