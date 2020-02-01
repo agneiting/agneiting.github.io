@@ -2,10 +2,21 @@
     img {
         width: auto;
     }
+
+    nav button {
+        display: none;
+    }
+
     nav ul { 
         display: flex; 
     }
+
+    nav ul.hide {
+        display: flex;
+    }
+    
     nav ul li { 
         flex: 1 1 100%; 
     }
+
 }
