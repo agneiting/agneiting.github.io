@@ -1,4 +1,8 @@
 @media only screen and (min-width: 64em) {
 
+    main, footer {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 
 }
