@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lesson 4: Preston Town Page</title>
+    <meta name="description" content="This site describes the site name, site purpose, target audience with scenarios, site map with navigation, color scheme and application, typography and wire-frame sketch of the different views for the Weather Site.">
+
+    <link href="https://fonts.googleapis.com/css?family=Lora|Raleway&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="../lesson4/css/normalize.css">
+    <link rel="stylesheet" href="../lesson4/css/small.css">
+    <link rel="stylesheet" href="../lesson4/css/medium.css">
+    <link rel="stylesheet" href="../lesson4/css/large.css">
+</head>
+<body>
+    <header>
+        <section class="brand">
+            <h1 class="accent">Proper Doppler</h1>
+            <img class="logo" src="../lesson3/images/logo.svg" alt="Logo for Proper Doppler.">
+        </section>
+        <p class="motto">Keeping You Right As Rain</p>
+        <!--Current Conditions Go Here-->
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>      
+        <ul id="primaryNav" class="hide">
+            <li><a href="../lesson3/index.html">Home</a></li>
+            <li><a href="../lesson3/target-audience.html">Target Audience</a></li>
+            <li><a href="../lesson3/color-scheme.html">Color Scheme</a></li>
+            <li><a href="../lesson3/typography.html">Typography</a></li>
+            <li><a class="active" href="../lesson4/preston-4.html">Preston</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="pageTitle">
+            <h1>Preston</h1>
+        </section>
+        <section>
+            <h2>Weather Summary/Image</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero corrupti iusto quos sequi culpa ab asperiores obcaecati debitis nobis voluptate voluptates quasi consequatur hic saepe, modi, quisquam numquam blanditiis similique.
+                </p>
+        </section>
+        <section>
+            <h2>5 Day Forecast (Not in Small View)</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero corrupti iusto quos sequi culpa ab asperiores obcaecati debitis nobis voluptate voluptates quasi consequatur hic saepe, modi, quisquam numquam blanditiis similique.
+                </p>
+        </section>
+        <section>
+            <h2>Article/Image</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus saepe recusandae doloremque veniam facilis quibusdam incidunt at id vitae nam facere, necessitatibus laborum itaque totam quo sed suscipit sit omnis.
+                </p>
+        </section>
+        <section>
+            <h2>Contact Info/Map</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus saepe recusandae doloremque veniam facilis quibusdam incidunt at id vitae nam facere, necessitatibus laborum itaque totam quo sed suscipit sit omnis.
+                </p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentYear"></span> | Amber Gneiting | Idaho | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+        <p class="js">Last Updated: <span id="lastUpdated"></span></p>
+        <script src="../lesson4/js/date-modified.js"></script>
+        <script src="../lesson4/js/toggleMenu.js"></script>
+    </footer>
+</body>
+</html>
