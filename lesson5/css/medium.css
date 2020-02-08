@@ -1,0 +1,31 @@
+@media only screen and (min-width: 32.5em) {
+    img {
+        width: auto;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    nav ul { 
+        display: flex; 
+    }
+
+    nav ul.hide {
+        display: flex;
+    }
+    
+    nav ul li { 
+        flex: 1 1 100%; 
+    }
+
+    .fiveDay, .contactMap {
+        display: block;
+    }
+
+    .map {
+        display: block;
+        width: 400px;
+        margin: 0 auto;
+    }
+}

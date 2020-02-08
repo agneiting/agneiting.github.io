@@ -1,0 +1,161 @@
+body {
+    background-color: #F9FBFF;
+    font-family: 'Raleway', sans-serif;
+}
+
+main {
+    margin: 3em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lora', serif;
+}
+
+header, footer {
+    background-color: #2D4351;
+    text-align: center;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+footer a, footer a:visited {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.motto {
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: -10px;
+    margin-left: -30px;
+    font-style: italic;
+    font-size: .75rem;
+}
+
+nav {
+	background-color: #1B2830;
+	text-align: center;
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: white;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+nav ul li a {
+    display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+}
+.active {
+	color: #F2C57C;
+}
+
+nav ul li a:hover {
+	background-color: #8AA89A;
+	color: #1B2830;
+}
+
+div {
+    position: relative;
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.heroSummary {
+    position: relative;
+    margin: 10px auto;
+    width: auto;
+    height: auto;
+}
+
+.heroImage {
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+.weatherSummary {
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 30px #111;
+    padding: .5rem;
+}
+
+.sectionHeader, section {
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.fiveDay, .contactMap {
+    display: none;
+    background-color: #F2C57C;
+}
+
+.contactIcon {
+    width: 20px;
+}
+
+.article {
+    background-color: #8AA89A;
+}
+
+.articleImg {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    padding-top: 20px;
+}
+
+.accent {
+    color: #F2C57C;
+}
+
+.logo {
+    padding-bottom: 1em;
+    width: auto;
+}
+
+img {
+    width: 100%;
+}
+
+.brand {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 90%;
+    margin: auto;
+}
+
+th, td {
+    text-align: center;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
