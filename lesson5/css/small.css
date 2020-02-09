@@ -93,11 +93,20 @@ div {
 
 .weatherSummary {
     position: absolute;
+    z-index:10;
     top: 1.5rem;
     left: 1.5rem;
     background-color: rgba(255, 255, 255, 0.5);
     box-shadow: 0 0 30px #111;
-    padding: .5rem;
+}
+
+.weatherSummary h2 {
+    margin-inline-start: 0;
+    margin-block-start: 0;
+}
+
+h2 {
+    text-align: center;
 }
 
 .sectionHeader, section {
@@ -108,7 +117,7 @@ div {
 
 .fiveDay, .contactMap {
     display: none;
-    background-color: #F2C57C;
+    text-align: center;
 }
 
 .contactIcon {
@@ -135,8 +144,21 @@ div {
     width: auto;
 }
 
+.weatherIcon {
+    width: auto;
+}
+
 img {
     width: 100%;
+}
+
+#banner {
+    text-align: center;
+    background-color: cyan;
+    margin: -10px;
+}
+.popup {
+    display: none;
 }
 
 .brand {
@@ -150,6 +172,10 @@ table {
 }
 
 th, td {
+    text-align: center;
+}
+
+.center {
     text-align: center;
 }
 

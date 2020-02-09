@@ -15,7 +15,12 @@
     <link rel="stylesheet" href="../lesson5/css/medium.css">
     <link rel="stylesheet" href="../lesson5/css/large.css">
 </head>
-<body>
+<body onload="banner()">
+    <section id="banner" class="popup">
+        <p>
+            Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion
+        </p>
+    </section>
     <header>
         <section class="brand">
             <h1 class="accent">Proper Doppler</h1>
@@ -44,9 +49,13 @@
             <section class="weatherSummary">
                 <h2>Weather Summary</h2>
                 <img class="weatherIcon" src="../lesson5/images/weatherIcons/sunny.svg" alt="sunny">
-                <p>Current Temp: 32&#176</p>
-                <p>High: 36&#176</p>
-                <p>Low: 12&#176</p>
+                <p>
+                    Current Temp: 32&#176
+                    <br>
+                    High: 36&#176
+                    <br>
+                    Low: 12&#176
+                </p>
             </section>
         </div>
         <div class="fiveDay">
@@ -78,6 +87,7 @@
         <div class="article">
             <img class="articleImg" src="../lesson5/images/HeroImage.jpg" alt="Cabin on rolling green hills in front of lake and mountains.">
             <h2 class="sectionHeader">Article Title</h2>
+            <p class="center"><em>Author</em></p>
             <section>
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis placeat necessitatibus minima aut asperiores, culpa eveniet consectetur temporibus vero vitae consequuntur ab, facilis voluptate incidunt ducimus corrupti doloribus nostrum architecto?
@@ -91,7 +101,7 @@
         <div class="contactMap">
             <h2 class="sectionHeader">Contact Info</h2>
             <img class="map" src="../lesson5/images/map.png" alt="Map of Preston Idaho.">
-            <section>
+            <section class="contactInfo">
                 <strong>Proper Doppler</strong>
                 <p>
                     <img class="contactIcon" src="../lesson5/images/contactIcons/location.svg" alt="location">123 N 456 E
@@ -108,8 +118,9 @@
     <footer>
         <p>&copy; Proper Doppler | Attributions | Amber Gneiting</p>
         <p class="js"><span id="todaysDate"></span></p>
-        <script src="../lesson5/js/todaysDate.js"></script>
-        <script src="../lesson5/js/toggleMenu.js"></script>
     </footer>
+    <script src="../lesson5/js/banner.js"></script>
+    <script src="../lesson5/js/todaysDate.js"></script>
+    <script src="../lesson5/js/toggleMenu.js"></script>
 </body>
 </html>
