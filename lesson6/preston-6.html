@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lesson 5: Preston Town Page</title>
+    <meta name="description" content="This site provides details regarding the weather for town in East Idaho, as well as other news articles and images related to weather.">
+
+    <link rel="shortcut icon" href="../lesson6/favicon.ico">
+
+    <link href="https://fonts.googleapis.com/css?family=Lora|Raleway&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="../lesson6/css/normalize.css">
+    <link rel="stylesheet" href="../lesson6/css/small.css">
+    <link rel="stylesheet" href="../lesson6/css/medium.css">
+    <link rel="stylesheet" href="../lesson6/css/large.css">
+</head>
+<body onload="banner(), windChill()">
+    <section id="banner" class="popup">
+        <p>
+            Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion
+        </p>
+    </section>
+    <header>
+        <section class="brand">
+            <h1 class="accent">Proper Doppler</h1>
+            <img class="logo" src="../lesson3/images/logo.svg" alt="Logo for Proper Doppler.">
+        </section>
+        <p class="motto">Keeping You Right As Rain</p>
+        <!--Current Conditions Go Here-->
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>      
+        <ul id="primaryNav" class="hide">
+            <li><a href="">Home</a></li>
+            <li><a href="">Fish Haven</a></li>
+            <li><a class="active" href="../lesson6/preston-6.html">Preston</a></li>
+            <li><a href="">Soda Springs</a></li>
+            <li><a href="">Storm Center</a></li>
+            <li><a href="">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="pageTitle">
+            <h1>Preston</h1>
+        </div>
+        <div class="heroSummary">
+                <figure class="heroImage">
+                    <img class="heroImage" src="../lesson6/images/HeroL6/heroOriginal.jpeg" sizes="100vw" alt="Shining sun through trees." srcset="
+                    ../lesson6/images/HeroL6/hero200S.png 200w,
+                    ../lesson6/images/HeroL6/hero500M.png 500w,
+                    ../lesson6/images/HeroL6/hero800L.png 800w,">
+                </figure>
+            <section class="weatherSummary">
+                <h2>Weather Summary</h2>
+                <img class="weatherIcon" src="../lesson6/images/weatherIcons/sunny.svg" alt="sunny">
+                <p>
+                    Current Temp: <span id="temp">32</span>&#176
+                    <br>
+                    High: 36&#176
+                    <br>
+                    Low: 12&#176
+                    <br>
+                    Wind Speed: <span id="speed">15</span>mph
+                    <br>
+                    Wind Chill: <span id="windChill"></span>&#176
+                </p>
+            </section>
+        </div>
+        <div class="fiveDay">
+            <h2 class="sectionHeader">5 Day Forecast</h2>
+                <table>
+                    <tr>
+                        <th>Saturday</th>
+                        <th>Sunday</th>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                        <th>Wednesday</th>
+                    </tr>
+                    <tr>
+                        <td><img class="weatherIcon" src="../lesson6/images/weatherIcons/snow.svg" alt="snow"></td>
+                        <td><img class="weatherIcon" src="../lesson6/images/weatherIcons/lightRain.svg" alt="lightRain"></td>
+                        <td><img class="weatherIcon" src="../lesson6/images/weatherIcons/sunny.svg" alt="sunny"></td>
+                        <td><img class="weatherIcon" src="../lesson6/images/weatherIcons/snow.svg" alt="snow"></td>
+                        <td><img class="weatherIcon" src="../lesson6/images/weatherIcons/snow.svg" alt="snow"></td>
+                    </tr>
+                    <tr>
+                        <td>30&#176</td>
+                        <td>35&#176</td>
+                        <td>24&#176</td>
+                        <td>25&#176</td>
+                        <td>22&#176</td>
+                    </tr>
+                </table>
+        </div>
+        <div class="article">
+            <img class="articleImg" src="../lesson6/images/HeroImage.jpg" alt="Cabin on rolling green hills in front of lake and mountains.">
+            <h2 class="sectionHeader">Article Title</h2>
+            <p class="center"><em>Author</em></p>
+            <section>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis placeat necessitatibus minima aut asperiores, culpa eveniet consectetur temporibus vero vitae consequuntur ab, facilis voluptate incidunt ducimus corrupti doloribus nostrum architecto?
+                    <br><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus saepe recusandae doloremque veniam facilis quibusdam incidunt at id vitae nam facere, necessitatibus laborum itaque totam quo sed suscipit sit omnis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quas illum voluptatibus amet, necessitatibus facere incidunt dolorum accusamus deserunt unde quis placeat fugit similique vitae totam, ex alias corrupti nobis.
+                    <br><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nam aut nostrum natus aliquam tempora, nulla, soluta, eaque ex accusantium vero quia molestias iste sed. Similique ad atque accusamus placeat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta libero cumque aut quo, eveniet itaque. Ad laudantium laborum natus eveniet nobis, dolore culpa a nulla eum omnis dolores ullam veniam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam nostrum harum quo saepe aperiam rerum delectus illo totam incidunt nisi. Commodi quod voluptatem id rerum libero quas est mollitia asperiores!
+                </p>
+            </section>
+        </div>
+        <div class="contactMap">
+            <h2 class="sectionHeader">Contact Info</h2>
+            <img class="map" src="../lesson6/images/map.png" alt="Map of Preston Idaho.">
+            <section class="contactInfo center">
+                <strong>Proper Doppler</strong>
+                <p>
+                    <img class="contactIcon" src="../lesson6/images/contactIcons/location.svg" alt="location">123 N 456 E
+                    <br>
+                    Preston, ID 83263
+                    <br><br>
+                    <img class="contactIcon" src="../lesson6/images/contactIcons/phone.svg" alt="phone">(555) 555-5555
+                    <br>
+                    <img class="contactIcon" src="../lesson6/images/contactIcons/email.svg"     alt="email">info@properdoppler.com
+                </p>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; Proper Doppler | Attributions | Amber Gneiting</p>
+        <p class="js"><span id="todaysDate"></span></p>
+    </footer>
+    <script src="../lesson6/js/banner.js"></script>
+    <script src="../lesson6/js/todaysDate.js"></script>
+    <script src="../lesson6/js/toggleMenu.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="../lesson6/js/webfontloader.js"></script>
+    <script src="../lesson6/js/windchill.js"></script>
+</body>
+</html>
