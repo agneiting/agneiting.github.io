@@ -3,10 +3,10 @@
         margin-left: 5%;
         margin-right: 5%;
     }
-    picture {
-        box-shadow: 0 0 30px #111;
-    }
     .gallery {
         grid-template-columns: 1fr 1fr 1fr;
+    }
+    picture:hover {
+        box-shadow: 0 0 30px #111;
     }
 }
