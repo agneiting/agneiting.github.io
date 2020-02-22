@@ -1,0 +1,12 @@
+@media only screen and (min-width: 64em) {
+    main, footer {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    picture {
+        box-shadow: 0 0 30px #111;
+    }
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
