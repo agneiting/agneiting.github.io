@@ -1,0 +1,16 @@
+main {
+    font-family: Ubuntu, sans-serif;
+}
+table {
+    text-align: center;
+}
+caption {
+    font-weight: bold;
+}    
+th {
+    color: white;
+}
+table, th, td {
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+  }
