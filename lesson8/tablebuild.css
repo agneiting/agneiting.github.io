@@ -9,6 +9,9 @@ caption, tfoot {
 caption {
     font-size: 1.5em;
 }
+tfoot{
+    font-size: .75em;
+}
 tbody tr:nth-child(odd) {
     background-color: #e7f0ed;
 }
