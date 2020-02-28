@@ -1,26 +1,29 @@
-main {
-    font-family: Ubuntu, sans-serif;
-}
 table {
+    font-family: Ubuntu, sans-serif;
     text-align: center;
+    margin: auto;
 }
 caption, tfoot {
     background-color: #7fb9c2;
 }
-table tr:nth-child(odd) {
+caption {
+    font-size: 1.5em;
+}
+tbody tr:nth-child(odd) {
     background-color: #e7f0ed;
 }
-table tr:nth-child(even) {
+tbody tr:nth-child(even) {
     background-color: #e7ffed;
 }
 th {
     background-color: #628ca6;
+    color: white;
 }
 caption {
     font-weight: bold;
 }    
-th {
-    color: white;
+th, td, caption {
+    padding: 10px;
 }
 table, th, td {
     border: 1px solid lightgray;
