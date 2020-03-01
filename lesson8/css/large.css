@@ -6,4 +6,8 @@
     form label.sbs {
         padding: .4rem 0;
     }
+    form {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
 }
