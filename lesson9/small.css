@@ -1,0 +1,25 @@
+h1 {
+    text-align: center;
+}
+main {
+    box-shadow: 0 0 10px #111;
+    background-color: lightgray;
+    padding: 10px;
+}
+div {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 3px;
+}
+section {
+    background-color: rosybrown;
+    border: 1px solid black;
+    text-align: center;
+    margin: 0 auto;
+    width: 250px;
+    height: 350px;
+}
+img {
+    width: 150px;
+    box-shadow: 0 0 10px #111;
+}
