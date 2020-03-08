@@ -1,0 +1,39 @@
+@media only screen and (min-width: 32.5em) {
+    nav button {
+        display: none;
+    }
+    nav ul { 
+        display: flex; 
+    }
+    nav ul.hide {
+        display: flex;
+    }
+    nav ul li { 
+        flex: 1 1 100%; 
+    }
+
+    /*--CARDS--*/
+h2 {text-align:center;}
+.cards {
+	max-width: 600px;
+    margin: .5rem auto;
+	border:1px solid #bbb;
+    background-color: #eee;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.cards section {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+}
+.cards section:nth-child(even) {
+	flex-direction: row-reverse;
+}
+
+.cards img {
+    max-width: 300px;
+    max-height: 200px;
+}
+}

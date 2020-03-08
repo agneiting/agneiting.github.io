@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lesson 9: Home Page</title>
+    <meta name="description" content="This site provides details regarding the weather for town in East Idaho, as well as other news articles and images related to weather.">
+
+    <link rel="shortcut icon" href="../lesson6/favicon.ico">
+
+    <link href="https://fonts.googleapis.com/css?family=Lora|Raleway&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="../lesson9/css/normalize.css">
+    <link rel="stylesheet" href="../lesson9/css/small.css">
+    <link rel="stylesheet" href="../lesson9/css/medium.css">
+    <link rel="stylesheet" href="../lesson9/css/large.css">
+</head>
+<body>
+    <header>
+        <div class="brand">
+            <h1 class="accent">Proper Doppler</h1>
+            <img class="logo" src="../lesson3/images/logo.svg" alt="Logo for Proper Doppler.">
+        </div>
+        <p class="motto">Keeping You Right As Rain</p>
+        <!--Current Conditions Go Here-->
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>      
+        <ul id="primaryNav" class="hide">
+            <li><a class="active" href="../lesson9/index.html">Home</a></li>
+            <li><a href="">Fish Haven</a></li>
+            <li><a href="../lesson6/preston-6.html">Preston</a></li>
+            <li><a href="">Soda Springs</a></li>
+            <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
+            <li><a href="../lesson7/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+
+    <main>
+        <a href="wireframes.html">Wireframes</a>
+        <div class="cards">
+
+        </div>
+
+    </main>
+
+
+    <footer>
+        <p>&copy; Proper Doppler | Attributions | Amber Gneiting</p>
+        <p class="js"><span id="todaysDate"></span></p>
+    </footer>
+    <script src="../lesson9/js/todaysDate.js"></script>
+    <script src="../lesson9/js/toggleMenu.js"></script>
+    <script src="../lesson9/js/adjustRating.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="../lesson6/js/webfontloader.js"></script>
+    <script src="../lesson9/js/townapi.js"></script>
+</body>
+</html>
