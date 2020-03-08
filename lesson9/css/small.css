@@ -76,6 +76,15 @@ nav ul li a:hover {
 .center {
     text-align: center;
 }
+.map {
+    width: 200px;
+}
+.article img {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    padding-top: 20px;
+}
 /*----------- CARDS --------------*/
 .cards h2 {
     text-align: center;
