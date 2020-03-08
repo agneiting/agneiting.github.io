@@ -14,7 +14,7 @@ fetch(requestURL)
                 let card = document.createElement('section');
                 let h2 = document.createElement('h2');
                 let img = document.createElement('img');
-                let motto = document.createElement('p');
+                let motto = document.createElement('h3');
                 let founded = document.createElement('p');
                 let pop = document.createElement('p');
                 let rainfall = document.createElement('p');
