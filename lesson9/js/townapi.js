@@ -12,12 +12,20 @@ fetch(requestURL)
         for (let i = 0; i < towns.length; i++) {
             if (towns[i].name == "Fish Haven" || towns[i].name == "Preston" || towns[i].name == "Soda Springs") {
                 let card = document.createElement('section');
+                /**------------Additions after TA meeting-------------*/
+                let innersection1 = document.createElement('section');
+                /**---------------------------------------------------*/
+
                 let h2 = document.createElement('h2');
                 let img = document.createElement('img');
                 let motto = document.createElement('h3');
                 let founded = document.createElement('p');
                 let pop = document.createElement('p');
                 let rainfall = document.createElement('p');
+
+                /**------------Additions after TA meeting-------------*/
+                let innersection2 = document.createElement('section');
+                /**---------------------------------------------------*/
 
                 h2.textContent = towns[i].name;
                 motto.textContent = towns[i].motto;
@@ -28,13 +36,22 @@ fetch(requestURL)
                 img.setAttribute('src', "../lesson9/images/" + towns[i].photo);
                 img.setAttribute('alt', towns[i].name);
             
+                /**-------------Additions after TA meeting------------*/
+                innersection2.appendChild(motto);
+                innersection2.appendChild(founded);
+                innersection2.appendChild(pop);
+                innersection2.appendChild(rainfall);
 
-                card.appendChild(h2);
-                card.appendChild(motto);
-                card.appendChild(founded);
-                card.appendChild(pop);
-                card.appendChild(rainfall);
-                card.appendChild(img);
+                innersection1.appendChild(innersection2);
+                innersection1.appendChild(img);
+                /**---------------------------------------------------*/
+
+                /**Original*/
+                //card.appendChild(motto);
+                //card.appendChild(founded);
+                //card.appendChild(pop);
+                //card.appendChild(rainfall);
+                //card.appendChild(img);
 
                 document.querySelector('div.cards').appendChild(card);
             }
