@@ -13,27 +13,37 @@
     }
 
     /*--CARDS--*/
-h2 {text-align:center;}
-.cards {
-	max-width: 600px;
-    margin: .5rem auto;
-	border:1px solid #bbb;
-    background-color: #eee;
-	display: flex;
-	flex-wrap: wrap;
+    /**h2 {text-align:center;}
+    .cards {
+	    max-width: 600px;
+        margin: .5rem auto;
+	    border:1px solid #bbb;
+        background-color: #eee;
+	    display: flex;
+	    flex-wrap: wrap;
 }
+    /**
+    .cards section {
+        display: flex;
+        flex-direction: row;
+        width: 800px;
+    }
+    */
+    .cards div {
+        display: flex;
+    }
+    .cards section .townInfo {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .cards section div .townText:nth-child(even) {
+	    flex-direction: row-reverse;
+    }
+    .cards img {
+        max-width: 100%;
 
-.cards section {
-    display: flex;
-    flex-direction: row;
-    width: 800px;
-}
-.cards section:nth-child(even) {
-	flex-direction: row-reverse;
-}
+    }
 
-.cards img {
-    max-width: 300px;
-    max-height: 200px;
-}
+
 }

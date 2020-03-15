@@ -11,9 +11,9 @@ fetch(requestURL)
 
         for (let i = 0; i < towns.length; i++) {
             if (towns[i].name == "Fish Haven" || towns[i].name == "Preston" || towns[i].name == "Soda Springs") {
-                let card = document.createElement('section');
+                let card = document.createElement('div');
                 /**------------Additions after TA meeting-------------*/
-                let innersection1 = document.createElement('section');
+                let innersection1 = document.createElement('div');
                 /**---------------------------------------------------*/
 
                 let h2 = document.createElement('h2');
@@ -24,7 +24,7 @@ fetch(requestURL)
                 let rainfall = document.createElement('p');
 
                 /**------------Additions after TA meeting-------------*/
-                let innersection2 = document.createElement('section');
+                let innersection2 = document.createElement('div');
                 /**---------------------------------------------------*/
 
                 h2.textContent = towns[i].name;
@@ -37,6 +37,7 @@ fetch(requestURL)
                 img.setAttribute('alt', towns[i].name);
             
                 /**-------------Additions after TA meeting------------*/
+                card.appendChild(h2);
                 innersection2.appendChild(motto);
                 innersection2.appendChild(founded);
                 innersection2.appendChild(pop);
@@ -44,6 +45,13 @@ fetch(requestURL)
 
                 innersection1.appendChild(innersection2);
                 innersection1.appendChild(img);
+                card.appendChild(innersection1);
+
+                //Adding classes to sections within div.
+                card.classList.add("townAll");
+                innersection1.classList.add("townInfo");
+                innersection2.classList.add("townText");
+                
                 /**---------------------------------------------------*/
 
                 /**Original*/
