@@ -13,7 +13,7 @@ fetch(requestURL)
             if (towns[i].name == "Fish Haven" || towns[i].name == "Preston" || towns[i].name == "Soda Springs") {
                 let card = document.createElement('div');
                 /**------------Additions after TA meeting-------------*/
-                let innersection1 = document.createElement('div');
+                let innersection1 = document.createElement('section');
                 /**---------------------------------------------------*/
 
                 let h2 = document.createElement('h2');

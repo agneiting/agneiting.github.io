@@ -29,21 +29,20 @@
         width: 800px;
     }
     */
-    .cards div {
-        display: flex;
-    }
-    .cards section .townInfo {
+    
+    .cards section {
         display: flex;
         flex-direction: row;
         width: 100%;
+        justify-content: center;
     }
-    .cards section div .townText:nth-child(even) {
+    .cards section:nth-child(odd) {
 	    flex-direction: row-reverse;
     }
     .cards img {
         max-width: 100%;
 
     }
-
+    
 
 }
