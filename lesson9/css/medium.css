@@ -31,14 +31,17 @@
     */
     
     .cards section {
-        display: flex;
-        flex-direction: row;
         width: 100%;
         justify-content: center;
     }
-    .cards section:nth-child(odd) {
-	    flex-direction: row-reverse;
-    }
+    .cards div section {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        }
+        .cards div:nth-child(2) section{
+        flex-direction: row-reverse;
+        }
     .cards img {
         max-width: 100%;
 
