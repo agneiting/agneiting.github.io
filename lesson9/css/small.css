@@ -79,11 +79,14 @@ nav ul li a:hover {
 .map {
     width: 200px;
 }
+.article {
+    margin-top: 20px;
+}
 .article img {
-    display: block;
-    margin: 0 auto;
-    width: 70%;
-    padding-top: 20px;
+    display: none;
+}
+.article h2 {
+    text-align: center;
 }
 /*----------- CARDS --------------*/
 .cards h2 {
@@ -97,16 +100,16 @@ nav ul li a:hover {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 5px;
-}
-.cards section {
-    background-color: #F9FBFF;
-    box-shadow: 0 0 10px #111;
     text-align: center;
 }
+
 .cards img {
     width: 300px;
 }
-
+.townAll {
+    margin-top: 10px;
+    box-shadow: 0 0 10px #111;
+}
 
 /*----------- FORM ---------------*/
 form fieldset {
@@ -167,7 +170,6 @@ form label.top input:required {
 form label.top input:required:valid {
     border-left: green solid 6px;
 }
-
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {

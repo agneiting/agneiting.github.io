@@ -10,6 +10,9 @@
         margin-left: 25%;
         margin-right: 25%;
     }
+    .article img {
+        width: 75%;
+    }
     /*---CARDS---*/
     .cards h2 {
         text-align: center;
@@ -29,11 +32,23 @@
     .cards div {
         display: block;
         background-color: #F9FBFF;
-        box-shadow: 0 0 10px #111;
         text-align: center;
     }
+    .cards section {
+        width: 100%;
+        justify-content: center;
+    }
+    .cards div section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .cards div:nth-child(2) section{
+        flex-direction: column;
+    }
     .cards img {
-        width: 300px;
+        width: 100%;
+        margin: 0;
     }
     
 }
