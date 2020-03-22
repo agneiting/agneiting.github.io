@@ -119,7 +119,9 @@ h2 {
     display: none;
     text-align: center;
 }
-
+footer .map {
+    width: 200px;
+}
 .contactIcon {
     width: 20px;
 }

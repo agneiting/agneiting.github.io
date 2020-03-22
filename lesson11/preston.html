@@ -27,7 +27,9 @@
             <img class="logo" src="../lesson3/images/logo.svg" alt="Logo for Proper Doppler.">
         </section>
         <p class="motto">Keeping You Right As Rain</p>
-        <!--Current Conditions Go Here-->
+        <div class="currentCond">
+
+        </div>
     </header>
     <nav class="clearfix">
         <button onclick="toggleMenu()">&#9776;</button>      
@@ -63,7 +65,7 @@
                     <br>
                     Humidity: <span id="humidity"></span>%
                     <br>
-                    Wind Speed: <span id="speed"></span>mph
+                    Wind Speed: <span id="speed"></span> mph
                     <br>
                     Wind Chill: <span id="windChill"></span>&#176
                 </p>
@@ -80,11 +82,11 @@
                         <th id="day5"></th>
                     </tr>
                     <tr>
-                        <td><img class="icon1"></td>
-                        <td><img class="icon2"></td>
-                        <td><img class="icon3"></td>
-                        <td><img class="icon4"></td>
-                        <td><img class="icon5"></td>
+                        <td><img class="icon1" src="" alt=""></td>
+                        <td><img class="icon2" src="" alt=""></td>
+                        <td><img class="icon3" src="" alt=""></td>
+                        <td><img class="icon4" src="" alt=""></td>
+                        <td><img class="icon5" src="" alt=""></td>
                     </tr>
                     <tr>
                         <td id="temp1"></td>
@@ -96,18 +98,19 @@
                 </table>
         </div>
         <div class="article">
-            <img class="articleImg" src="../lesson10/images/HeroImage.jpg" alt="Cabin on rolling green hills in front of lake and mountains.">
-            <h2 class="sectionHeader">Article Title</h2>
-            <p class="center"><em>Author</em></p>
+            <h2 class="sectionHeader">All About Preston</h2>
+            <p class="center"><em>John Doe</em></p>
             <section>
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis placeat necessitatibus minima aut asperiores, culpa eveniet consectetur temporibus vero vitae consequuntur ab, facilis voluptate incidunt ducimus corrupti doloribus nostrum architecto?
+                    Preston, Idaho is one of the best kept secrets of the West.  Nestled on the Idaho side of beautiful Cache Valley and surrounded by towering mountains on each side, it is unbeatable for recreation opportunities, has that small town feeling, and is close to whatever you need. 
                     <br><br>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus saepe recusandae doloremque veniam facilis quibusdam incidunt at id vitae nam facere, necessitatibus laborum itaque totam quo sed suscipit sit omnis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quas illum voluptatibus amet, necessitatibus facere incidunt dolorum accusamus deserunt unde quis placeat fugit similique vitae totam, ex alias corrupti nobis.
+                    For several years the city held a "Napoleon Dynamite Festival" in the summer. Many of the featured festival themes related to events occurring during the film. For example: Tetherball Tournament, Tater Tot Eating Contest, Moon Boot Dance, Impersonation, Look-A-Like Contest, Football Throwing Contest and more. In 2004 there was a single day event that drew approximately 300 people. Although this was not a large crowd, it did help raise $1,500 for the Preston School District Education Foundation. In 2005 an estimated 6,000 people attended the event, but that number dropped to an estimated 400 people in 2006. 
                     <br><br>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nam aut nostrum natus aliquam tempora, nulla, soluta, eaque ex accusantium vero quia molestias iste sed. Similique ad atque accusamus placeat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta libero cumque aut quo, eveniet itaque. Ad laudantium laborum natus eveniet nobis, dolore culpa a nulla eum omnis dolores ullam veniam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam nostrum harum quo saepe aperiam rerum delectus illo totam incidunt nisi. Commodi quod voluptatem id rerum libero quas est mollitia asperiores!
+                    The 2007 and 2008 event was held along with the 'That Famous Preston Night Rodeo' in Preston. There are no plans for reviving the event. 'That Famous Preston Night Rodeo' is usually held in late July, along with the Franklin County parade. The rodeo's name ('That Famous Preston Night Rodeo') comes from it being the first rodeo held during night time. It includes many events such as bull riding, barrel racing, and other popular events. The Franklin county parade includes floats and advertisements of local businesses. The rodeo and parade remain one of the town's most popular local events and traditions.
                 </p>
-            </section>
+            </section> 
+        </div>
+        <div class="event">
         </div>
         <div class="contactMap">
             <h2 class="sectionHeader">Contact Info</h2>
@@ -127,16 +130,20 @@
         </div>
     </main>
     <footer>
-        <p>&copy; Proper Doppler | Attributions: <a href="https://openweathermap.org/">OpenWeatherMap</a> | Amber Gneiting</p>
+        <img class="map" src="../lesson6/images/map.png" alt="Map of Preston Idaho.">
+        <p>(208) 351-5555 | info@properdoppler.com</p>
+        <p>&copy; Proper Doppler | Amber Gneiting | <a href="index.html">Term of Use</a> | Attributions: <a href="https://openweathermap.org/">OpenWeatherMap</a></p>
         <p class="js"><span id="todaysDate"></span></p>
     </footer>
     <script src="../lesson10/js/banner.js"></script>
-    <script src="../lesson10/js/windchill.js"></script>
+    <script src="../lesson11/js/windchill.js"></script>
     <script src="../lesson10/js/todaysDate.js"></script>
     <script src="../lesson10/js/toggleMenu.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="../lesson10/js/webfontloader.js"></script>
-    <script src="../lesson10/js/weatherapi.js"></script>
-    <script src="../lesson10/js/forecast.js"></script>
+    <script src="../lesson11/js/weatherapi.js"></script>
+    <script src="../lesson11/js/forecast.js"></script>
+    <script src="../lesson11/js/eventP.js"></script>
+
 </body>
 </html>

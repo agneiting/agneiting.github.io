@@ -76,6 +76,9 @@ nav ul li a:hover {
 .center {
     text-align: center;
 }
+footer .map {
+    width: 200px;
+}
 /*----------- FORM ---------------*/
 form fieldset {
     margin: 2rem 0;

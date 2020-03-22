@@ -94,6 +94,9 @@ picture {
 .center {
     text-align: center;
 }
+footer .map {
+    width: 200px;
+}
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";

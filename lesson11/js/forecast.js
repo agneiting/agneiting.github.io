@@ -15,9 +15,9 @@ fetch(apiURL)
     //Increment through the 5 days to add info.
     for (let i=0; i<fiveDayForecast.length; i++) {
         //Set day.
-        currentDate = new Date()
-        cDay = currentDate.getDay()
-        nextDay = dayOfWeek[cday+1]
+        var currentDate = new Date()
+        var cDay = currentDate.getDay()
+        var nextDay = dayOfWeek[cDay+1]
         document.getElementById(`day${i+1}`).textContent = nextDay;
         
         //Set temperature.
@@ -25,7 +25,7 @@ fetch(apiURL)
         
         //Set icon.
         var iconULR = "http://openweathermap.org/img/wn/" + fiveDayForecast[i].main.icon + "@2x.png"
-        document.getElementById(`icon${i+1}`).setAttribute("src", iconURL);
+        document.getElementById(`icon${i+1}`).setAttribute("src", 'https://openweathermap.org/img/w/' + icon + '.png');
         document.getElementById(`icon${i+1}`).setAttribute("alt", fiveDayForecast[i].main.description);
     }
 
