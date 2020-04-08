@@ -1,0 +1,28 @@
+{
+    "guides": [
+      {
+        "name": "Franklin Covey",
+        "photo": "franklin.jpg",
+        "certLevel": "10/10",
+        "yearsExp": 24,
+        "email": "franklin@sradventures.com",
+        "bio": "Franklin was born and raised in Colorado. He has been river rafting since he was 6 years old, and taught by his parents who are avid river rafting professionals. Every year Franklin loves to compete in the annual River Rafting Rager where he has taken home gold the last 3 years running."
+      },
+      {
+        "name": "Adly Miller",
+        "photo": "Adly.jpg",
+        "certLevel": "7/10",
+        "yearsExp": 10,
+        "email": "adly@sradventures.com",
+        "bio": "Adly was born and raised in Oregon. He has been river rafting since he was 12 years old, and taught his family members who now river raft with him. Adly has perfected dropping from the falls in our 13 ft. raft."
+      },
+      {
+        "name": "Marie Rainier",
+        "photo": "marie.jpg",
+        "certLevel": "8/10",
+        "yearsExp": 15,
+        "email": "marie@sradventures.com",
+        "bio": "Marie was born and raised in Washington State. She has been river rafting since she was 9 years old. Marie's aussie puppy, Lucky, loves to kayak with her down the river."
+      }
+    ]
+  }
