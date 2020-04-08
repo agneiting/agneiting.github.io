@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Salmon River Adventures | Home</title>
+    <meta name="description" content="The purpose of this modern site is to provide an inviting hub of information a high end, river rafting tour company. While high end and professional, this site should also reflect the company’s activities filled with fun, safety, and experience.">
+
+    <link rel="shortcut icon" href="../finalproject/images/favicon.ico">
+
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../finalproject/css/styles.css">
+
+</head>
+<body onload="banner(), windChill()">
+    <section id="banner" class="popup">
+        <p>
+            <!--Banner Content Here-->
+        </p>
+    </section>
+    <header>
+        <section class="brand">
+            <h1 class="title">Salmon River Adventures</h1>
+            <img class="logo" src="images/logo2.png">
+        </section>
+        <!--Current Conditions Go Here-->
+    </header>
+    <nav class="navbar clearFix">
+        <ul id="primaryNav" class="hide">
+            <li><a class="active" href="../finalproject/index.html">Home</a></li>
+            <li><a href="../finalproject/guides.html">Meet the Guides</a></li>
+            <div class="dropdown">
+                <li><button class="dropbtn" onclick="hide()">Adventures <i class="fa fa-caret-down"></i></button></li>
+                <div class="hide">
+                <ul class="dropdown-content">
+                    <li><a href="../finalproject/salmon.html">Salmon River</a></li>
+                    <li><a href="../finalproject/mountain.html">Mountain River</a></li>
+                    <li><a href="../finalproject/wild.html">Wild River</a></li>
+                </ul>
+                </div>
+            </div> 
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="heroSummary">
+            <figure class="heroImage">
+                <img class="heroImage" src="images/CTA/CTA.png" sizes="100vw" alt="River rapids" srcset="
+                images/CTA/CTA200.png 200w,
+                images/CTA/CTA500.png 500w,
+                images/CTA/CTA800.png 800w,">
+            </figure>
+            <h1 class="callToAction">The River Is Calling!</h1>
+        </div>
+        <div class="home1">
+            <p>For river guides and whitewater lovers, high-water rafting seasons in the western U.S. are responsible for many a tall-tale, told in celebration of big flips, upside-down boats, long swims and daring heroism.
+            <br><br>
+            Each winter, eager paddlers wait to see what Mother Nature has in store for the upcoming river season.  Hefty snowfall in the high elevations has the makings of an epic year and with each new snowstorm the excitement grows. But whether or not it will be a particularly memorable high-water season, and when, ultimately comes down to spring temperatures and snowmelt runoff across each region.
+            <br><br>
+            On rivers across the West, the high-water window typically occurs from mid-May to mid-June with the possibility of lasting longer during years with above-average snowpacks.
+            <br><br>
+            “High water may last a few weeks in thin snowpack years, or prevail for a month or longer depending on how warm it is, how consistently warm it stays, and how cold it is getting in the high mountains at night,” according to Eric Riley, founder of the Swiftwater Safety Institute.
+            </p>
+            <img src="images/home1.png" alt="Article Image 1">
+        </div>
+        <h2 class="sectionHeader">Contact Info</h2>
+        <div class="contact">
+            <iframe class ="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2801.096833041193!2d-116.33289468466452!3d45.40738687910029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54a6c50a8b477d35%3A0x2b4f0a0937b98808!2s1500%20S%20Main%20St%2C%20Riggins%2C%20ID%2083549!5e0!3m2!1sen!2sus!4v1586305317576!5m2!1sen!2sus" width="400" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <section class="info">
+                <strong>Salmon River Adventures</strong>
+                <p>
+                    <img class="contactIcon" src="../lesson10/images/contactIcons/location.svg" alt="location">1500 S Main St.
+                    <br>
+                    Riggins, ID
+                    <br><br>
+                    <img class="contactIcon" src="../lesson10/images/contactIcons/phone.svg" alt="phone">(555) 555-5555
+                    <br>
+                    <img class="contactIcon" src="../lesson10/images/contactIcons/email.svg"     alt="email">info@sradventures.com
+                </p>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; Salmon River Adventures | Attributions: <a href="https://openweathermap.org/">OpenWeatherMap</a> | Terms of Service</p>
+        <p class="js"><span id="todaysDate"></span></p>
+    </footer>
+    <script src="js/todaysDate.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+</body>
+</html>

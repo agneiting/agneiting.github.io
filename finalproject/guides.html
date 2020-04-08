@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Salmon River Adventures | Home</title>
+    <meta name="description" content="The purpose of this modern site is to provide an inviting hub of information a high end, river rafting tour company. While high end and professional, this site should also reflect the company’s activities filled with fun, safety, and experience.">
+
+    <link rel="shortcut icon" href="../finalproject/images/favicon.ico">
+
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../finalproject/css/styles.css">
+
+</head>
+<body onload="banner(), windChill()">
+    <section id="banner" class="popup">
+        <p>
+            <!--Banner Content Here-->
+        </p>
+    </section>
+    <header>
+        <section class="brand">
+            <h1 class="title">Salmon River Adventures</h1>
+            <img class="logo" src="images/logo2.png">
+        </section>
+        <!--Current Conditions Go Here-->
+    </header>
+    <nav class="navbar clearFix">
+        <ul id="primaryNav" class="hide">
+            <li><a href="../finalproject/index.html">Home</a></li>
+            <li><a class="active" href="../finalproject/guides.html">Meet the Guides</a></li>
+            <div class="dropdown">
+                <li><button class="dropbtn" onclick="hide()">Adventures <i class="fa fa-caret-down"></i></button></li>
+                <div class="hide">
+                <ul class="dropdown-content">
+                    <li><a href="../finalproject/salmon.html">Salmon River</a></li>
+                    <li><a href="../finalproject/mountain.html">Mountain River</a></li>
+                    <li><a href="../finalproject/wild.html">Wild River</a></li>
+                </ul>
+                </div>
+            </div> 
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="guides">
+            <div class="guide1"></div>
+            <div class="guide2"></div>
+            <div class="guide3"></div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; Salmon River Adventures | Attributions: <a href="https://openweathermap.org/">OpenWeatherMap</a> | Terms of Service</p>
+        <p class="js"><span id="todaysDate"></span></p>
+    </footer>
+    <script src="js/todaysDate.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+</body>
+</html>

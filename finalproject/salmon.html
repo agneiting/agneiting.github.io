@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Salmon River Adventures | Home</title>
+    <meta name="description" content="The purpose of this modern site is to provide an inviting hub of information a high end, river rafting tour company. While high end and professional, this site should also reflect the company’s activities filled with fun, safety, and experience.">
+
+    <link rel="shortcut icon" href="../finalproject/images/favicon.ico">
+
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../finalproject/css/styles.css">
+
+</head>
+<body onload="banner(), windChill()">
+    <section id="banner" class="popup">
+        <p>
+            <!--Banner Content Here-->
+        </p>
+    </section>
+    <header>
+        <section class="brand">
+            <h1 class="title">Salmon River Adventures</h1>
+            <img class="logo" src="images/logo2.png">
+        </section>
+        <!--Current Conditions Go Here-->
+    </header>
+    <nav class="navbar clearFix">
+        <ul id="primaryNav" class="hide">
+            <li><a href="../finalproject/index.html">Home</a></li>
+            <li><a href="../finalproject/guides.html">Meet the Guides</a></li>
+            <div class="dropdown">
+                <li><button class="dropbtn" onclick="hide()">Adventures <i class="fa fa-caret-down"></i></button></li>
+                <div class="hide">
+                <ul class="dropdown-content">
+                    <li><a class="active" href="../finalproject/salmon.html">Salmon River</a></li>
+                    <li><a href="../finalproject/mountain.html">Mountain River</a></li>
+                    <li><a href="../finalproject/wild.html">Wild River</a></li>
+                </ul>
+                </div>
+            </div> 
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="heroSummary">
+            <figure class="heroImage">
+                <img class="heroImage" src="images/CTA/CTA.png" sizes="100vw" alt="River rapids" srcset="
+                images/CTA/CTA200.png 200w,
+                images/CTA/CTA500.png 500w,
+                images/CTA/CTA800.png 800w,">
+            </figure>
+            <h1 class="callToAction">Salmon River</h1>
+        </div>
+        <div class="adventureSummary">
+            <p><strong>Skill Level: </strong>Beginner</p>
+            <p><strong>Length: </strong>3 Miles</p>
+            <p><strong>Description: </strong>
+                <br>
+                The Salmon River is located in Idaho in the northwestern United States. The Salmon is also known as "The River of No Return". It flows for 425 miles (685 km) through central Idaho, draining a rugged, thinly populated watershed of 14,000 square miles (36,000 km2) and dropping more than 7,000 feet (2,100 m) between its headwaters, near Galena Summit above the Sawtooth Valley in the Sawtooth National Recreation Area, and its confluence with the Snake River. Measured at White Bird, its average discharge is 11,060 cubic feet per second (82,700 US gal/s; 313 m3/s). It is one of the largest rivers in the continental United States without a single dam on its mainstem.<br><br>
+                Cities located along the Salmon River include Stanley, Clayton, Challis, Salmon, Riggins, and White Bird. Redfish Lake and Little Redfish Lake near Stanley, which flow into the river via Redfish Lake Creek, are the terminus of the longest Pacific sockeye salmon migration in North America.
+                <br><br>
+                The lower half of the river provides the time zone boundary for the state, with northern Idaho on Pacific time and the rest of the state on Mountain time.
+                <br><br>
+                This rafting adventure is great for those who have not been river rafting before. Take a trip down the Salmon River, and stop at an island for a brown bag lunch.
+            </p>
+            <p><strong>Inclusions: </strong>
+                <ul>
+                    <li>Brown Bag Lunch</li>
+                    <li>Rafting Equipment/Gear</li>
+                </ul>
+            </p>
+            <p><strong>What to Bring: </strong>
+                <ul>
+                    <li>Waterproof Bag</li>
+                    <li>Sunglasses</li>
+                    <li>Sunscreen</li>
+                    <li>Protective Water Shoes</li>
+                </ul>
+            </p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; Salmon River Adventures | Attributions: <a href="https://openweathermap.org/">OpenWeatherMap</a> | Terms of Service</p>
+        <p class="js"><span id="todaysDate"></span></p>
+    </footer>
+    <script src="js/todaysDate.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+</body>
+</html>
