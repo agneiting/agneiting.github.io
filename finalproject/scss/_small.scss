@@ -90,11 +90,11 @@ footer {
     display: flex;
     justify-content: space-around;
     overflow: hidden;
-    background-color: $paleCerulean;
+    background-color: $purpleNavy;
     font-family: $headings;
 }
 .active {
-    background-color: $purpleNavy; 
+    background-color: $lightRedOchre; 
     color: $ghostWhite;
 }
 .navbar ul {
@@ -107,7 +107,7 @@ footer {
         padding: 0;
         a {
             text-decoration: none;
-            color: $ghostWhite;
+            color: white;
             font-size: 16px;
             padding: 12px 16px;
             display: block;
