@@ -1,9 +1,6 @@
 html {
     background-color: $ghostWhite;
 }
-main {
-    font-family: $body;
-}
 header {
     margin: auto;
 }
@@ -26,11 +23,13 @@ footer {
         margin-left: 30px;
         }
     .title {
-        font-family: $body;
         justify-content: center;
         margin: auto;
         margin-right: 30px;
     }
+}
+main {
+    font-family: $body;
 }
 .heroSummary, .contact {
     position: relative;
@@ -62,9 +61,10 @@ footer {
         margin: 0 auto;
         height: 200px;
         width: 200px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
     }
 }
-.adventureSummary {
+.adventureSummary, .thank {
     margin: 30px 30px;
 }
 //CONTACT//
@@ -212,6 +212,45 @@ th, td, caption {
 table, th, td {
     border: 1px solid lightgray;
     border-collapse: collapse;
+}
+//WEATHER//
+.weather {
+    display: none;
+}
+
+//CARDS//
+.guides {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    text-align: center;
+    margin: 10px;
+    h3 {
+        text-align: center;
+        background-color: $lightRedOchre;
+        padding: 10px;
+        margin-top: 0;
+    }
+    main {
+        box-shadow: 0 0 10px #111;
+        background-color: rgb(100, 96, 96);
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    div {
+        padding: 10px;
+        background-color: $ghostWhite;
+        box-shadow: 0 0 10px #111;
+    }
+    section {
+        text-align: center;
+        margin: 0 auto;
+    }
+    img {
+        width: 150px;
+        box-shadow: 0 0 10px #111;
+    }
+    
 }
 
 //FORM//

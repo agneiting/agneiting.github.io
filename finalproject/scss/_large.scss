@@ -6,11 +6,16 @@
     background-color: $paleCerulean;
     margin: 1em 1em;
     p {
-        padding-right: 5px;
+        margin-right: 5px;
     }
     img {
-        padding-left: 5px;
+        margin-left: 5px;
         height: 400px;
         width: 400px;
     }
+}
+//CARDS//
+.guides {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }

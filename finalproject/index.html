@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="../finalproject/css/styles.css">
 
 </head>
-<body onload="banner(), windChill()">
+<body>
     <section id="banner" class="popup">
         <p>
             <!--Banner Content Here-->
@@ -22,10 +22,14 @@
     </section>
     <header>
         <section class="brand">
-            <h1 class="title">Salmon River Adventures</h1>
-            <img class="logo" src="images/logo2.png">
+            <h1 class="title">SALMON RIVER ADVENTURES</h1>
+            <img class="logo" src="images/logo2.png" alt="logo">
         </section>
-        <!--Current Conditions Go Here-->
+        <section class="weather">
+            <p><strong>Riggins, ID</strong>
+            <span id="main"></span> Conditions<br>
+            <span id="current-temp"></span>&#176</p>
+        </section>
     </header>
     <nav class="navbar clearFix">
         <ul id="primaryNav" class="hide">
@@ -64,7 +68,7 @@
             <br><br>
             “High water may last a few weeks in thin snowpack years, or prevail for a month or longer depending on how warm it is, how consistently warm it stays, and how cold it is getting in the high mountains at night,” according to Eric Riley, founder of the Swiftwater Safety Institute.
             </p>
-            <img src="images/home1.png" alt="Article Image 1">
+            <img src="images/home1.png" alt="Kayaker">
         </div>
         <h2 class="sectionHeader">Contact Info</h2>
         <div class="contact">
@@ -87,6 +91,7 @@
         <p>&copy; Salmon River Adventures | Attributions: <a href="https://openweathermap.org/">OpenWeatherMap</a> | Terms of Service</p>
         <p class="js"><span id="todaysDate"></span></p>
     </footer>
+    <script src="js/weather.js"></script>
     <script src="js/todaysDate.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 </body>
