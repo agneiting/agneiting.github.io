@@ -11,7 +11,9 @@ footer {
     background-color: $paleCerulean;
     text-align: center;
     padding: 10px;
-    color: $purpleNavy;
+    color: black;
+    font-family: $headings;
+    font-size: .8rem;
 }
 .sectionHeader {
     text-align: center;
@@ -42,7 +44,7 @@ footer {
 }
 .callToAction {
     color: $ghostWhite;
-    text-shadow: 2px 2px 5px black;
+    text-shadow: 4px 3px black;
     font-family: 'Caveat', cursive;
     font-size: 11vw;
     position: absolute;
@@ -132,12 +134,12 @@ footer {
         
     }
     button:hover {
-        background-color: $purpleNavy;
+        background-color: $lightRedOchre;
     }
 }
   
 .navbar li:hover, .dropdown:hover .dropbtn {
-    background-color: $purpleNavy;
+    background-color: $lightRedOchre;
 }
   
 .dropdown-content {
